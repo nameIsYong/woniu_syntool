@@ -1,0 +1,2600 @@
+[
+    {
+        "csvId": 200001,
+        "csvName": "症状",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300101,
+                "csvName": "症状",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400201,
+                        "csvName": "无症状",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400202,
+                        "csvName": "头痛",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400203,
+                        "csvName": "头晕",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400204,
+                        "csvName": "心悸",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400205,
+                        "csvName": "胸闷",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400206,
+                        "csvName": "胸痛",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400207,
+                        "csvName": "慢性咳嗽",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400208,
+                        "csvName": "咳痰",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400209,
+                        "csvName": "呼吸困难",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400210,
+                        "csvName": "多饮",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400211,
+                        "csvName": "多尿",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400212,
+                        "csvName": "体重下降",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400213,
+                        "csvName": "乏力",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400214,
+                        "csvName": "关节肿痛",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400215,
+                        "csvName": "视力模糊",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400216,
+                        "csvName": "手脚麻木",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400217,
+                        "csvName": "尿急",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400218,
+                        "csvName": "尿痛",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400219,
+                        "csvName": "便秘",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400220,
+                        "csvName": "腹泻",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400226,
+                        "csvName": "恶心呕吐",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400222,
+                        "csvName": "眼花",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400223,
+                        "csvName": "耳鸣",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400224,
+                        "csvName": "乳房胀痛",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400017,
+                        "csvName": "其他",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200001
+            }
+        ]
+    },
+    {
+        "csvId": 200002,
+        "csvName": "一般状况",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300111,
+                "csvName": "体温",
+                "type": 3,
+                "parentId": 200002
+            },
+            {
+                "csvId": 300112,
+                "csvName": "脉率",
+                "type": 3,
+                "parentId": 200002
+            },
+            {
+                "csvId": 300113,
+                "csvName": "呼吸频率",
+                "type": 3,
+                "parentId": 200002
+            },
+            {
+                "csvId": 300119,
+                "csvName": "腰围",
+                "type": 3,
+                "parentId": 200002
+            },
+            {
+                "csvId": 300500,
+                "csvName": "左侧血压",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300109,
+                        "csvName": "左侧收缩压",
+                        "type": 3,
+                        "parentId": 200002
+                    },
+                    {
+                        "csvId": 300108,
+                        "csvName": "左侧舒张压",
+                        "type": 3,
+                        "parentId": 200002
+                    }
+                ],
+                "parentId": 200002
+            },
+            {
+                "csvId": 300501,
+                "csvName": "右侧血压",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300115,
+                        "csvName": "右侧收缩压",
+                        "type": 3,
+                        "parentId": 200002
+                    },
+                    {
+                        "csvId": 300114,
+                        "csvName": "右侧舒张压",
+                        "type": 3,
+                        "parentId": 200002
+                    }
+                ],
+                "parentId": 200002
+            },
+            {
+                "csvId": 300503,
+                "csvName": "体质",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300116,
+                        "csvName": "身高",
+                        "type": 3,
+                        "parentId": 200002
+                    },
+                    {
+                        "csvId": 300117,
+                        "csvName": "体重",
+                        "type": 3,
+                        "parentId": 200002
+                    },
+                    {
+                        "csvId": 300118,
+                        "csvName": "BMI",
+                        "type": 3,
+                        "parentId": 200002
+                    }
+                ],
+                "parentId": 200002
+            }
+        ]
+    },
+    {
+        "csvId": 200004,
+        "csvName": "老年人自我评估",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300121,
+                "csvName": "老年人健康状态自我评估*",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400101,
+                        "csvName": "满意",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400102,
+                        "csvName": "基本满意",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400103,
+                        "csvName": "说不清楚",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400104,
+                        "csvName": "不太满意",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400105,
+                        "csvName": "不满意",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200004
+            },
+            {
+                "csvId": 300122,
+                "csvName": "老年人生活自理能力自我评估*",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400111,
+                        "csvName": "可自理（0~3分）",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400112,
+                        "csvName": "轻度依赖（4~8分）",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400113,
+                        "csvName": "中度依赖（9~18分）",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400114,
+                        "csvName": "不能自理（>=19分）",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200004
+            },
+            {
+                "csvId": 300123,
+                "csvName": "老年人认知功能*",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400121,
+                        "csvName": "粗筛阴性",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400122,
+                        "csvName": "粗筛阳性",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200004
+            },
+            {
+                "csvId": 300124,
+                "csvName": "老年情感状态*",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400121,
+                        "csvName": "粗筛阴性",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400122,
+                        "csvName": "粗筛阳性",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200004
+            }
+        ]
+    },
+    {
+        "csvId": 200200,
+        "csvName": "生活方式",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300504,
+                "csvName": "体育锻炼",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300131,
+                        "csvName": "锻炼频率",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400131,
+                                "csvName": "每天",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400132,
+                                "csvName": "每周一次以上",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400133,
+                                "csvName": "偶尔",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400134,
+                                "csvName": "从不",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 300504
+                    },
+                    {
+                        "csvId": 300133,
+                        "csvName": "每次锻炼时间",
+                        "type": 3,
+                        "parentId": 300504
+                    },
+                    {
+                        "csvId": 300134,
+                        "csvName": "持续时间",
+                        "type": 3,
+                        "parentId": 300504
+                    },
+                    {
+                        "csvId": 300135,
+                        "csvName": "锻炼方式",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400900,
+                                "csvName": "跑步",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400901,
+                                "csvName": "散步",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400902,
+                                "csvName": "跳舞",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400905,
+                                "csvName": "骑车",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400906,
+                                "csvName": "游泳",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400907,
+                                "csvName": "做农活",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401350,
+                                "csvName": "慢跑",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401351,
+                                "csvName": "老年操",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401352,
+                                "csvName": "打太极",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401353,
+                                "csvName": "打乒乓球",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401354,
+                                "csvName": "打羽毛球",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401355,
+                                "csvName": "打篮球",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401356,
+                                "csvName": "踢足球",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400017,
+                                "csvName": "其他",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 300504
+                    }
+                ],
+                "parentId": 200200
+            },
+            {
+                "csvId": 300351,
+                "csvName": "饮食习惯",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400141,
+                        "csvName": "荤素均衡",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400142,
+                        "csvName": "荤食为主",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400143,
+                        "csvName": "素食为主",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400144,
+                        "csvName": "嗜盐",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400145,
+                        "csvName": "嗜油",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400146,
+                        "csvName": "嗜糖",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200200
+            },
+            {
+                "csvId": 300506,
+                "csvName": "吸烟情况",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300141,
+                        "csvName": "吸烟状况",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400151,
+                                "csvName": "从不吸烟",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400152,
+                                "csvName": "已戒烟",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400153,
+                                "csvName": "吸烟",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 300506
+                    },
+                    {
+                        "csvId": 300142,
+                        "csvName": "日吸烟量",
+                        "type": 3,
+                        "parentId": 300506
+                    },
+                    {
+                        "csvId": 300143,
+                        "csvName": "开始吸烟年龄",
+                        "type": 3,
+                        "parentId": 300506
+                    },
+                    {
+                        "csvId": 300144,
+                        "csvName": "戒烟年龄",
+                        "type": 3,
+                        "parentId": 300506
+                    }
+                ],
+                "parentId": 200200
+            },
+            {
+                "csvId": 300508,
+                "csvName": "饮酒情况",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300151,
+                        "csvName": "饮酒频率",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400131,
+                                "csvName": "每天",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400133,
+                                "csvName": "偶尔",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400134,
+                                "csvName": "从不",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400135,
+                                "csvName": "经常",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 300508
+                    },
+                    {
+                        "csvId": 300152,
+                        "csvName": "日饮酒量",
+                        "type": 3,
+                        "parentId": 300508
+                    },
+                    {
+                        "csvId": 300153,
+                        "csvName": "是否戒酒",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400155,
+                                "csvName": "未戒酒",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400156,
+                                "csvName": "已戒酒",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 300508
+                    },
+                    {
+                        "csvId": 300154,
+                        "csvName": "戒酒年龄",
+                        "type": 3,
+                        "parentId": 300508
+                    },
+                    {
+                        "csvId": 300156,
+                        "csvName": "开始饮酒年龄",
+                        "type": 3,
+                        "parentId": 300508
+                    },
+                    {
+                        "csvId": 300157,
+                        "csvName": "近一年是否醉酒",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400001,
+                                "csvName": "是",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400002,
+                                "csvName": "否",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 300508
+                    },
+                    {
+                        "csvId": 300158,
+                        "csvName": "饮酒种类",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400161,
+                                "csvName": "白酒",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400162,
+                                "csvName": "啤酒",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400163,
+                                "csvName": "红酒",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400164,
+                                "csvName": "黄酒",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400017,
+                                "csvName": "其他",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 300508
+                    }
+                ],
+                "parentId": 200200
+            },
+            {
+                "csvId": 300161,
+                "csvName": "职业病危害因素接触史",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400003,
+                        "csvName": "有",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400004,
+                        "csvName": "无",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200200
+            },
+            {
+                "csvId": 300162,
+                "csvName": "从业工种",
+                "type": 3,
+                "parentId": 300161
+            },
+            {
+                "csvId": 300163,
+                "csvName": "从业时间",
+                "type": 3,
+                "parentId": 300161
+            },
+            {
+                "csvId": 300164,
+                "csvName": "毒物种类和防护措施",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300165,
+                        "csvName": "毒物种类",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400982,
+                                "csvName": "粉尘",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400983,
+                                "csvName": "放射物质",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400984,
+                                "csvName": "物理因素",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400985,
+                                "csvName": "化学物质",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400924,
+                                "csvName": "其他",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 300164
+                    },
+                    {
+                        "csvId": 300166,
+                        "csvName": "防护措施",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400020,
+                                "csvName": "有",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400004,
+                                "csvName": "无",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 300164
+                    },
+                    {
+                        "csvId": 300604,
+                        "csvName": "毒物名字",
+                        "type": 3,
+                        "parentId": 300164
+                    }
+                ],
+                "parentId": 300161
+            }
+        ]
+    },
+    {
+        "csvId": 200003,
+        "csvName": "脏器功能",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300510,
+                "csvName": "口腔",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300171,
+                        "csvName": "口唇",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400252,
+                                "csvName": "皲裂",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400253,
+                                "csvName": "疱疹",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400257,
+                                "csvName": "苍白",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400258,
+                                "csvName": "发绀",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400261,
+                                "csvName": "红润",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200003
+                    },
+                    {
+                        "csvId": 300173,
+                        "csvName": "咽部",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400191,
+                                "csvName": "无充血",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400192,
+                                "csvName": "充血",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400193,
+                                "csvName": "淋巴滤泡增生",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200003
+                    }
+                ],
+                "parentId": 200003
+            },
+            {
+                "csvId": 300172,
+                "csvName": "齿列",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400005,
+                        "csvName": "正常",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400181,
+                        "csvName": "缺齿",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400182,
+                        "csvName": "龋齿",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400183,
+                        "csvName": "义齿(假牙)",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200003
+            },
+            {
+                "csvId": 300511,
+                "csvName": "视力",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300181,
+                        "csvName": "左眼视力",
+                        "type": 3,
+                        "parentId": 200003
+                    },
+                    {
+                        "csvId": 300182,
+                        "csvName": "左眼视力(矫正)",
+                        "type": 3,
+                        "parentId": 300511
+                    },
+                    {
+                        "csvId": 300183,
+                        "csvName": "右眼视力",
+                        "type": 3,
+                        "parentId": 200003
+                    },
+                    {
+                        "csvId": 300184,
+                        "csvName": "右眼视力(矫正)",
+                        "type": 3,
+                        "parentId": 300511
+                    }
+                ],
+                "parentId": 200003
+            },
+            {
+                "csvId": 300990,
+                "csvName": "听力",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300185,
+                        "csvName": "左耳听力",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400301,
+                                "csvName": "听见",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400302,
+                                "csvName": "听不清或无法听见",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200003
+                    },
+                    {
+                        "csvId": 300989,
+                        "csvName": "右耳听力",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400301,
+                                "csvName": "听见",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400302,
+                                "csvName": "听不清或无法听见",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200003
+                    }
+                ],
+                "parentId": 200003
+            },
+            {
+                "csvId": 300186,
+                "csvName": "运动功能",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400303,
+                        "csvName": "可顺利完成",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400304,
+                        "csvName": "无法独立完成任何一个动作",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200003
+            }
+        ]
+    },
+    {
+        "csvId": 200201,
+        "csvName": "查体",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300192,
+                "csvName": "皮肤",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400005,
+                        "csvName": "正常",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400256,
+                        "csvName": "潮红",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400257,
+                        "csvName": "苍白",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400258,
+                        "csvName": "发绀",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400259,
+                        "csvName": "黄染",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400260,
+                        "csvName": "色素沉着",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400017,
+                        "csvName": "其他",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200201
+            },
+            {
+                "csvId": 300193,
+                "csvName": "巩膜",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400005,
+                        "csvName": "正常",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400192,
+                        "csvName": "充血",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400259,
+                        "csvName": "黄染",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400017,
+                        "csvName": "其他",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200201
+            },
+            {
+                "csvId": 300194,
+                "csvName": "淋巴结",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400014,
+                        "csvName": "未触及",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400322,
+                        "csvName": "锁骨上",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400323,
+                        "csvName": "腋窝",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400017,
+                        "csvName": "其他",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200201
+            },
+            {
+                "csvId": 300513,
+                "csvName": "肺部",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300201,
+                        "csvName": "桶状胸",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400001,
+                                "csvName": "是",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400002,
+                                "csvName": "否",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200201
+                    },
+                    {
+                        "csvId": 300202,
+                        "csvName": "呼吸音",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400005,
+                                "csvName": "正常",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400006,
+                                "csvName": "异常",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200201
+                    },
+                    {
+                        "csvId": 300203,
+                        "csvName": "罗音",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400004,
+                                "csvName": "无",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400331,
+                                "csvName": "干罗音",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400332,
+                                "csvName": "湿罗音",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400017,
+                                "csvName": "其他",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200201
+                    }
+                ],
+                "parentId": 200201
+            },
+            {
+                "csvId": 300514,
+                "csvName": "心脏",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300211,
+                        "csvName": "心率",
+                        "type": 3,
+                        "parentId": 200201
+                    },
+                    {
+                        "csvId": 300212,
+                        "csvName": "心律",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400341,
+                                "csvName": "齐",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400342,
+                                "csvName": "不齐",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400343,
+                                "csvName": "绝对不齐",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200201
+                    },
+                    {
+                        "csvId": 300213,
+                        "csvName": "心跳杂音",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400004,
+                                "csvName": "无",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400006,
+                                "csvName": "有",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200201
+                    }
+                ],
+                "parentId": 200201
+            },
+            {
+                "csvId": 300515,
+                "csvName": "腹部",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300221,
+                        "csvName": "腹部压痛",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400004,
+                                "csvName": "无",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401149,
+                                "csvName": "右上腹部",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401150,
+                                "csvName": "右下腹部",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401151,
+                                "csvName": "中上腹部",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401152,
+                                "csvName": "中下腹部",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401153,
+                                "csvName": "左上腹部",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401154,
+                                "csvName": "左下腹部",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401155,
+                                "csvName": "右外侧腹部",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401156,
+                                "csvName": "左外侧腹部",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 401157,
+                                "csvName": "脐周",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400017,
+                                "csvName": "其他",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200201
+                    },
+                    {
+                        "csvId": 300222,
+                        "csvName": "腹部包块",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400004,
+                                "csvName": "无",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400020,
+                                "csvName": "有",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200201
+                    },
+                    {
+                        "csvId": 300223,
+                        "csvName": "腹部肝大",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400004,
+                                "csvName": "无",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400020,
+                                "csvName": "有",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 300515
+                    },
+                    {
+                        "csvId": 300224,
+                        "csvName": "腹部脾大",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400004,
+                                "csvName": "无",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400020,
+                                "csvName": "有",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 300515
+                    },
+                    {
+                        "csvId": 300225,
+                        "csvName": "移动性浊音",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400004,
+                                "csvName": "无",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400020,
+                                "csvName": "有",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200201
+                    }
+                ],
+                "parentId": 200201
+            },
+            {
+                "csvId": 300226,
+                "csvName": "下肢水肿",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400004,
+                        "csvName": "无",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400351,
+                        "csvName": "单侧",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400352,
+                        "csvName": "双侧不对称",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400353,
+                        "csvName": "双侧对称",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200201
+            },
+            {
+                "csvId": 300231,
+                "csvName": "足背动脉搏动",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400014,
+                        "csvName": "未触及",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400362,
+                        "csvName": "触及双侧对称",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400363,
+                        "csvName": "触及左侧弱",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400366,
+                        "csvName": "触及左消失",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400364,
+                        "csvName": "触及右侧弱",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400367,
+                        "csvName": "触及右消失",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400365,
+                        "csvName": "双侧减弱",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 401162,
+                        "csvName": "双侧消失",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200201
+            },
+            {
+                "csvId": 300516,
+                "csvName": "妇科",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300241,
+                        "csvName": "外阴",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400007,
+                                "csvName": "未见异常",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400006,
+                                "csvName": "异常",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200201
+                    },
+                    {
+                        "csvId": 300242,
+                        "csvName": "阴道",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400007,
+                                "csvName": "未见异常",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400006,
+                                "csvName": "异常",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200201
+                    },
+                    {
+                        "csvId": 300243,
+                        "csvName": "宫颈",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400007,
+                                "csvName": "未见异常",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400006,
+                                "csvName": "异常",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200201
+                    },
+                    {
+                        "csvId": 300244,
+                        "csvName": "宫体",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400007,
+                                "csvName": "未见异常",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400006,
+                                "csvName": "异常",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200201
+                    },
+                    {
+                        "csvId": 300245,
+                        "csvName": "附件",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400007,
+                                "csvName": "未见异常",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400006,
+                                "csvName": "异常",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200201
+                    }
+                ],
+                "parentId": 200201
+            },
+            {
+                "csvId": 300191,
+                "csvName": "眼底",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400005,
+                        "csvName": "正常",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400006,
+                        "csvName": "异常",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200201
+            },
+            {
+                "csvId": 300233,
+                "csvName": "乳腺",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400908,
+                        "csvName": "其他",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400007,
+                        "csvName": "未见异常",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400381,
+                        "csvName": "乳房切除",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400382,
+                        "csvName": "异常泌乳",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400383,
+                        "csvName": "乳腺包块",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200201
+            },
+            {
+                "csvId": 300232,
+                "csvName": "肛门指诊",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400908,
+                        "csvName": "其他",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400007,
+                        "csvName": "未见异常",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400372,
+                        "csvName": "触痛",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400373,
+                        "csvName": "包块",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400374,
+                        "csvName": "前列腺异常",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200201
+            },
+            {
+                "csvId": 300540,
+                "csvName": "查体-其他",
+                "type": 3,
+                "parentId": 200201
+            }
+        ]
+    },
+    {
+        "csvId": 101005,
+        "csvName": "辅助检查",
+        "type": 1,
+        "childs": [
+            {
+                "csvId": 200052,
+                "csvName": "尿常规",
+                "type": 2,
+                "childs": [
+                    {
+                        "csvId": 300261,
+                        "csvName": "尿蛋白",
+                        "type": 3,
+                        "parentId": 200052
+                    },
+                    {
+                        "csvId": 300262,
+                        "csvName": "尿糖",
+                        "type": 3,
+                        "parentId": 200052
+                    },
+                    {
+                        "csvId": 300263,
+                        "csvName": "尿酮体",
+                        "type": 3,
+                        "parentId": 200052
+                    },
+                    {
+                        "csvId": 300264,
+                        "csvName": "尿潜血",
+                        "type": 3,
+                        "parentId": 200052
+                    },
+                    {
+                        "csvId": 300539,
+                        "csvName": "尿常规-其他",
+                        "type": 3,
+                        "parentId": 200052
+                    }
+                ]
+            },
+            {
+                "csvId": 200055,
+                "csvName": "心电图",
+                "type": 2,
+                "childs": [
+                    {
+                        "csvId": 300266,
+                        "csvName": "心电图",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400005,
+                                "csvName": "正常",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400006,
+                                "csvName": "异常",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200055
+                    },
+                    {
+                        "csvId": 300267,
+                        "csvName": "图片",
+                        "type": 3,
+                        "parentId": 200055
+                    }
+                ]
+            },
+            {
+                "csvId": 200056,
+                "csvName": "大便潜血",
+                "type": 2,
+                "childs": [
+                    {
+                        "csvId": 300272,
+                        "csvName": "大便潜血",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400018,
+                                "csvName": "阴性",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400019,
+                                "csvName": "阳性",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200056
+                    }
+                ]
+            },
+            {
+                "csvId": 200057,
+                "csvName": "糖化血红蛋白",
+                "type": 2,
+                "childs": [
+                    {
+                        "csvId": 300273,
+                        "csvName": "糖化血红蛋白",
+                        "type": 3,
+                        "parentId": 200057
+                    }
+                ]
+            },
+            {
+                "csvId": 200062,
+                "csvName": "胸部X线片",
+                "type": 2,
+                "childs": [
+                    {
+                        "csvId": 300311,
+                        "csvName": "胸部X线片",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400005,
+                                "csvName": "正常",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400006,
+                                "csvName": "异常",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200062
+                    }
+                ]
+            },
+            {
+                "csvId": 200063,
+                "csvName": "B超",
+                "type": 2,
+                "childs": [
+                    {
+                        "csvId": 300267,
+                        "csvName": "图片",
+                        "type": 3,
+                        "parentId": 200063
+                    },
+                    {
+                        "csvId": 300312,
+                        "csvName": "腹部B超",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400005,
+                                "csvName": "正常",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400006,
+                                "csvName": "异常",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200063
+                    }
+                ]
+            },
+            {
+                "csvId": "200355",
+                "csvName": "其他B超",
+                "type": "2",
+                "childs": [
+                    {
+                        "csvId": 300267,
+                        "csvName": "图片",
+                        "type": "3",
+                        "parentId": "200355"
+                    },
+                    {
+                        "csvId": 301005,
+                        "csvName": "其他B超",
+                        "type": "3",
+                        "childs": [
+                            {
+                                "csvId": 400005,
+                                "csvName": "正常",
+                                "type": "4"
+                            },
+                            {
+                                "csvId": 400006,
+                                "csvName": "异常",
+                                "type": "4"
+                            }
+                        ],
+                        "parentId": "200355"
+                    }
+                ]
+            },
+            {
+                "csvId": 200051,
+                "csvName": "血常规",
+                "type": 2,
+                "childs": [
+                    {
+                        "csvId": 300251,
+                        "csvName": "血红蛋白",
+                        "type": 3,
+                        "parentId": 200051
+                    },
+                    {
+                        "csvId": 300252,
+                        "csvName": "白细胞",
+                        "type": 3,
+                        "parentId": 200051
+                    },
+                    {
+                        "csvId": 300253,
+                        "csvName": "血小板",
+                        "type": 3,
+                        "parentId": 200051
+                    },
+                    {
+                        "csvId": 300540,
+                        "csvName": "血常规-其他",
+                        "type": 3,
+                        "parentId": 200051
+                    }
+                ]
+            },
+            {
+                "csvId": 200054,
+                "csvName": "空腹血糖",
+                "type": 2,
+                "childs": [
+                    {
+                        "csvId": 300265,
+                        "csvName": "空腹血糖",
+                        "type": 3,
+                        "parentId": 200054
+                    },
+                    {
+                        "csvId": 300581,
+                        "csvName": "餐后血糖",
+                        "type": 3,
+                        "parentId": 200054
+                    },
+                    {
+                        "csvId": 300582,
+                        "csvName": "随机血糖",
+                        "type": 3,
+                        "parentId": 200054
+                    }
+                ]
+            },
+            {
+                "csvId": 200064,
+                "csvName": "宫颈涂片",
+                "type": 2,
+                "childs": [
+                    {
+                        "csvId": 300313,
+                        "csvName": "宫颈涂片",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400005,
+                                "csvName": "正常",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400006,
+                                "csvName": "异常",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200064
+                    }
+                ]
+            },
+            {
+                "csvId": 200202,
+                "csvName": "生化检测",
+                "type": 2,
+                "childs": [
+                    {
+                        "csvId": 300271,
+                        "csvName": "尿微量白蛋白",
+                        "type": 3,
+                        "parentId": 200202
+                    },
+                    {
+                        "csvId": 300281,
+                        "csvName": "血清谷丙转氨酶",
+                        "type": 3,
+                        "parentId": 200202
+                    },
+                    {
+                        "csvId": 300282,
+                        "csvName": "血清谷草转氨酶",
+                        "type": 3,
+                        "parentId": 200202
+                    },
+                    {
+                        "csvId": 300283,
+                        "csvName": "白蛋白",
+                        "type": 3,
+                        "parentId": 200202
+                    },
+                    {
+                        "csvId": 300284,
+                        "csvName": "总胆红素",
+                        "type": 3,
+                        "parentId": 200202
+                    },
+                    {
+                        "csvId": 300285,
+                        "csvName": "结合胆红素",
+                        "type": 3,
+                        "parentId": 200202
+                    },
+                    {
+                        "csvId": 300291,
+                        "csvName": "血清肌酐",
+                        "type": 3,
+                        "parentId": 200202
+                    },
+                    {
+                        "csvId": 300292,
+                        "csvName": "血尿素",
+                        "type": 3,
+                        "parentId": 200202
+                    },
+                    {
+                        "csvId": 300293,
+                        "csvName": "血钾浓度",
+                        "type": 3,
+                        "parentId": 200202
+                    },
+                    {
+                        "csvId": 300294,
+                        "csvName": "血钠浓度",
+                        "type": 3,
+                        "parentId": 200202
+                    },
+                    {
+                        "csvId": 300301,
+                        "csvName": "总胆固醇",
+                        "type": 3,
+                        "parentId": 200202
+                    },
+                    {
+                        "csvId": 300302,
+                        "csvName": "甘油三酯",
+                        "type": 3,
+                        "parentId": 200202
+                    },
+                    {
+                        "csvId": 300303,
+                        "csvName": "血清低密度脂蛋白胆固醇",
+                        "type": 3,
+                        "parentId": 200202
+                    },
+                    {
+                        "csvId": 300304,
+                        "csvName": "血清高密度脂蛋白胆固醇",
+                        "type": 3,
+                        "parentId": 200202
+                    }
+                ]
+            },
+            {
+                "csvId": "200319",
+                "csvName": "其他",
+                "type": "2",
+                "childs": [
+                    {
+                        "csvId": 300540,
+                        "csvName": "辅助检查-其他",
+                        "type": "3",
+                        "parentId": "200319"
+                    }
+                ]
+            },
+            {
+                "csvId": 200203,
+                "csvName": "免疫检测",
+                "type": 2,
+                "childs": [
+                    {
+                        "csvId": 300274,
+                        "csvName": "乙型肝炎表面抗原",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400018,
+                                "csvName": "阴性",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400019,
+                                "csvName": "阳性",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 200203
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "csvId": 200204,
+        "csvName": "现存主要健康问题",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300321,
+                "csvName": "脑血管疾病",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400017,
+                        "csvName": "脑血管疾病-其他",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400015,
+                        "csvName": "未发现",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400392,
+                        "csvName": "缺血性卒中",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400393,
+                        "csvName": "脑出血",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400394,
+                        "csvName": "蛛网膜下腔出血",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400395,
+                        "csvName": "短暂性脑缺血发作",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200204
+            },
+            {
+                "csvId": 300322,
+                "csvName": "肾脏疾病",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400017,
+                        "csvName": "其他",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400015,
+                        "csvName": "未发现",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400402,
+                        "csvName": "糖尿病肾病",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400403,
+                        "csvName": "肾功能衰竭",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400404,
+                        "csvName": "急性肾炎",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400405,
+                        "csvName": "慢性肾炎",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200204
+            },
+            {
+                "csvId": 300323,
+                "csvName": "心脏疾病",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400017,
+                        "csvName": "其他",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400015,
+                        "csvName": "未发现",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400411,
+                        "csvName": "心肌梗死",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400412,
+                        "csvName": "心绞痛",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400413,
+                        "csvName": "冠状动脉血运重建",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400414,
+                        "csvName": "充血性心力衰竭",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400415,
+                        "csvName": "心前区疼痛",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200204
+            },
+            {
+                "csvId": 300324,
+                "csvName": "血管疾病",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400017,
+                        "csvName": "其他",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400015,
+                        "csvName": "未发现",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400421,
+                        "csvName": "夹层动脉瘤",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400422,
+                        "csvName": "动脉闭塞性疾病",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200204
+            },
+            {
+                "csvId": 300325,
+                "csvName": "眼部疾病",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400017,
+                        "csvName": "其他",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400015,
+                        "csvName": "未发现",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400431,
+                        "csvName": "视网膜出血或渗出",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400432,
+                        "csvName": "视乳头水肿",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400433,
+                        "csvName": "白内障",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200204
+            },
+            {
+                "csvId": 300326,
+                "csvName": "神经系统疾病",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400015,
+                        "csvName": "未发现",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400908,
+                        "csvName": "其他",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200204
+            },
+            {
+                "csvId": 300327,
+                "csvName": "其他系统疾病",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400015,
+                        "csvName": "未发现",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400908,
+                        "csvName": "其他",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200204
+            }
+        ]
+    },
+    {
+        "csvId": 101002,
+        "csvName": "住院治疗情况",
+        "type": 1,
+        "childs": [
+            {
+                "csvId": 200011,
+                "csvName": "住院史",
+                "type": 2,
+                "childs": [
+                    {
+                        "csvId": 300381,
+                        "csvName": "住院史",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 300382,
+                                "csvName": "入院日期",
+                                "type": 3,
+                                "parentId": 300381
+                            },
+                            {
+                                "csvId": 300383,
+                                "csvName": "出院日期",
+                                "type": 3,
+                                "parentId": 300381
+                            },
+                            {
+                                "csvId": 300372,
+                                "csvName": "原因",
+                                "type": 3,
+                                "parentId": 300381
+                            },
+                            {
+                                "csvId": 300385,
+                                "csvName": "医疗机构",
+                                "type": 3,
+                                "parentId": 300381
+                            },
+                            {
+                                "csvId": 300386,
+                                "csvName": "病案号",
+                                "type": 3,
+                                "parentId": 300381
+                            }
+                        ],
+                        "parentId": 200011
+                    }
+                ]
+            },
+            {
+                "csvId": 200012,
+                "csvName": "家庭病床史",
+                "type": 2,
+                "childs": [
+                    {
+                        "csvId": 300391,
+                        "csvName": "家庭病床史",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 300392,
+                                "csvName": "建床日期",
+                                "type": 3,
+                                "parentId": 300391
+                            },
+                            {
+                                "csvId": 300393,
+                                "csvName": "撤床日期",
+                                "type": 3,
+                                "parentId": 300391
+                            },
+                            {
+                                "csvId": 300372,
+                                "csvName": "原因",
+                                "type": 3,
+                                "parentId": 300391
+                            },
+                            {
+                                "csvId": 300385,
+                                "csvName": "医疗机构",
+                                "type": 3,
+                                "parentId": 300391
+                            },
+                            {
+                                "csvId": 300386,
+                                "csvName": "病案号",
+                                "type": 3,
+                                "parentId": 300391
+                            }
+                        ],
+                        "parentId": 200012
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "csvId": 200008,
+        "csvName": "主要用药情况",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300401,
+                "csvName": "主要用药情况",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300363,
+                        "csvName": "服药依从性",
+                        "type": 3,
+                        "childs": [
+                            {
+                                "csvId": 400591,
+                                "csvName": "规律",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400592,
+                                "csvName": "间断",
+                                "type": 4
+                            },
+                            {
+                                "csvId": 400593,
+                                "csvName": "不服药",
+                                "type": 4
+                            }
+                        ],
+                        "parentId": 300401
+                    },
+                    {
+                        "csvId": 300402,
+                        "csvName": "药物名称",
+                        "type": 3,
+                        "parentId": 300401
+                    },
+                    {
+                        "csvId": 300403,
+                        "csvName": "用法",
+                        "type": 3,
+                        "parentId": 300401
+                    },
+                    {
+                        "csvId": 300764,
+                        "csvName": "用量",
+                        "type": 3,
+                        "parentId": 300401
+                    },
+                    {
+                        "csvId": 300406,
+                        "csvName": "用药时间",
+                        "type": 3,
+                        "parentId": 300401
+                    }
+                ],
+                "parentId": 200008
+            }
+        ]
+    },
+    {
+        "csvId": 200007,
+        "csvName": "非免疫规划预防接种史",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300411,
+                "csvName": "非免疫规划预防接种史",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 300412,
+                        "csvName": "名称",
+                        "type": 3,
+                        "parentId": 300411
+                    },
+                    {
+                        "csvId": 300413,
+                        "csvName": "接种日期",
+                        "type": 3,
+                        "parentId": 300411
+                    },
+                    {
+                        "csvId": 300414,
+                        "csvName": "接种机构",
+                        "type": 3,
+                        "parentId": 300411
+                    }
+                ],
+                "parentId": 200007
+            }
+        ]
+    },
+    {
+        "csvId": 200206,
+        "csvName": "健康评价与指导",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300341,
+                "csvName": "健康评价",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400441,
+                        "csvName": "体检无异常",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400442,
+                        "csvName": "有异常",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200206
+            },
+            {
+                "csvId": 300342,
+                "csvName": "健康异常情况",
+                "type": 3,
+                "parentId": 200206
+            },
+            {
+                "csvId": 300343,
+                "csvName": "健康指导",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400451,
+                        "csvName": "纳入慢性病患者健康管理",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400452,
+                        "csvName": "建议复查",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400453,
+                        "csvName": "建议转诊",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200206
+            },
+            {
+                "csvId": 300344,
+                "csvName": "危险因素控制",
+                "type": 3,
+                "childs": [
+                    {
+                        "csvId": 400461,
+                        "csvName": "戒烟",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400462,
+                        "csvName": "健康饮酒",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400463,
+                        "csvName": "饮食",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400464,
+                        "csvName": "锻炼",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400465,
+                        "csvName": "减至目标体重",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400466,
+                        "csvName": "建议接种疫苗",
+                        "type": 4
+                    },
+                    {
+                        "csvId": 400017,
+                        "csvName": "危险因素控制其他",
+                        "type": 4
+                    }
+                ],
+                "parentId": 200206
+            },
+            {
+                "csvId": 300761,
+                "csvName": "健康摘要",
+                "type": 3,
+                "parentId": 200206
+            }
+        ]
+    },
+    {
+        "csvId": 200261,
+        "csvName": "责任医生",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300585,
+                "csvName": "责任医生",
+                "type": 3,
+                "parentId": 200261
+            },
+            {
+                "csvId": 300702,
+                "csvName": "体检时间",
+                "type": 3,
+                "parentId": 200261
+            }
+        ]
+    },
+    {
+        "csvId": 200356,
+        "csvName": "肝功能报告",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300267,
+                "csvName": "肝功能报告单",
+                "type": 3,
+                "parentId": 200356
+            }
+        ]
+    },
+    {
+        "csvId": 200357,
+        "csvName": "肾功能报告",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300267,
+                "csvName": "肾功能报告单",
+                "type": 3,
+                "parentId": 200357
+            }
+        ]
+    },
+    {
+        "csvId": 200358,
+        "csvName": "血脂报告",
+        "type": 2,
+        "childs": [
+            {
+                "csvId": 300267,
+                "csvName": "血脂报告单",
+                "type": 3,
+                "parentId": 200358
+            }
+        ]
+    }
+]
