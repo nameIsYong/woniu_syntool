@@ -1,16 +1,27 @@
 # syn_tool
 
-A new Flutter project.
+## Windows 打包
 
-## Getting Started
+项目已经配置好 GitHub Actions 的 Windows 打包流程。
 
-This project is a starting point for a Flutter application.
+### 触发方式
 
-A few resources to get you started if this is your first Flutter project:
+1. 打开 GitHub 仓库的 `Actions`
+2. 选择 `Build Windows Release`
+3. 点击 `Run workflow`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+或者给仓库打一个 `v*` 开头的 tag，例如 `v1.0.0`，GitHub 会自动构建。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 产物
+
+- `syn_tool-windows-release.zip`
+- zip 里包含 `syn_tool.exe` 以及运行所需的同目录文件
+
+### 本地构建
+
+如果你本机装了 Flutter，也可以直接执行：
+
+```bash
+flutter pub get
+flutter build windows --release
+```
